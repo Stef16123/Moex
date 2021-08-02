@@ -28,7 +28,7 @@ def pull_securities(issuer_id):
 def pull_table(security):
     if security == '':
         return []
-    prices = Price.objects.filter(security=security)  # Todo
+    prices = Price.objects.filter(security=security)
     return [dict(security=price.security.title, date=price.date, price=price.price) for price in prices]
 
 
@@ -39,7 +39,7 @@ def pull_table(security):
 def pull_graph(security):
     if security == '':
         return []
-    prices = Price.objects.filter(security=security)  # Todo
+    prices = Price.objects.filter(security=security)
     data_graph_x = [price.date for price in prices]
     data_graph_y = [price.price for price in prices]
     fig = go.Figure()

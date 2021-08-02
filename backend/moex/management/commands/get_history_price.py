@@ -1,7 +1,6 @@
 import asyncio
 import aiohttp
 import aiomoex
-import pandas as pd
 from moex.models import Price, Security
 from django.core.management.base import BaseCommand
 

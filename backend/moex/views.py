@@ -1,22 +1,12 @@
 from django.shortcuts import render
-from django.http import HttpResponse
-import datetime
 from .models import Issuer, Security, Price, Portfolio
 from rest_framework import viewsets
-from rest_framework import permissions
 from .serializers import IssuerSerializer, SecuritySerializer, PriceSerializer, PortfolioSerializer
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from django.db.models import Avg, Min, Max, Sum, Count, F, ExpressionWrapper, FloatField
-# from django.db.models import Count, F, Value
-from django.db.models import OuterRef, Subquery
 
 
-# from django.db.models.functions import Coalesce
-# from django.db.models import Subquery
-
-
-# Create your views here.
 def home(request):
     return render(request, 'moex/home.html')
 
