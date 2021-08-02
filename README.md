@@ -8,4 +8,4 @@ Moex биржы и анализирует эти данные,а так же в�
   4) перейдите по url в /home для просмотра анализа
 
 Скриншоты сайта:
-  ![alt text](https://github.com/Stef161/Moex/blob/master/image.jpg?raw=true)
+  ![alt text](https://github.com/Stef16123/Moex/blob/master/image.jpg?raw=true)
