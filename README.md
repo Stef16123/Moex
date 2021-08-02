@@ -9,3 +9,5 @@ Moex биржы и анализирует эти данные,а так же в�
 
 Скриншоты сайта:
   ![alt text](https://github.com/Stef16123/moex/blob/master/image.png?raw=true)
+  ![alt text](https://github.com/Stef16123/moex/blob/master/home_page_1.png?raw=true)
+  ![alt text](https://github.com/Stef16123/moex/blob/master/home_page_2.png?raw=true)
